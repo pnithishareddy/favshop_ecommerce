@@ -12,8 +12,8 @@ function useLS(key, init) {
   return [v, setV]
 }
 
-const ADMIN = { id: 1, name: 'Store Admin', email: 'admin@shop.com', password: 'admin123', role: 'admin', phone: '' }
-const DEMO = { id: 2, name: 'Nithisha', email: 'nithisha@favshop.com', password: 'demo123', role: 'user', phone: '9876543210', address: '12 MG Road', city: 'Bengaluru', zip: '560001' }
+const ADMIN = { id: 1, name: 'Store Admin', email: 'admin@shop.com', password: 'admin123', role: 'admin', phone: '9988552211' }
+const DEMO = { id: 2, name: 'Nithisha', email: 'nithisha@favshop.com', password: 'demo123', role: 'user', phone: '9876543210', address: 'Madhapur', city: 'Hyderabad', zip: '500081' }
 const safe = ({ password, ...u }) => u
 
 export function StoreProvider({ children }) {
